@@ -16,7 +16,7 @@ function add2(n) {
   const two = 2
   return n + two
 }
-console.log = 40 + n
+console.log = add2(40)
 
 var funkyFunction = function() {
   return function() {
